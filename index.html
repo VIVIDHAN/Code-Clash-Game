@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- THIS LINE IS CRITICAL FOR MOBILE -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code-Clash</title>
   <link rel="stylesheet" href="style.css">
@@ -11,7 +10,6 @@
 
   <div id="status-bar">Status: Connecting...</div>
 
-  <!-- 1. LOBBY SCREEN -->
   <div class="screen" id="lobby-screen">
     <h1><span class="game-title">Code-Clash</span></h1>
     <p>Challenge a friend in a real-time coding quiz!</p>
@@ -31,7 +29,6 @@
     </div>
   </div>
 
-  <!-- 2. WAITING ROOM SCREEN -->
   <div class="screen hidden" id="waiting-screen">
     <h1><span class="game-title">Code-Clash</span></h1>
     <p>Your room key is:</p>
@@ -40,7 +37,6 @@
     <button id="start-btn" class="hidden">Start Game</button>
   </div>
 
-  <!-- 3. QUIZ SCREEN -->
   <div class="screen hidden" id="quiz-screen">
     <div id="quiz-header">
       <div id="score">Score: 0</div>
@@ -51,7 +47,6 @@
     <div id="options"></div>
   </div>
 
-  <!-- 4. RESULT SCREEN -->
   <div class="screen hidden" id="result-screen">
     <h1>Game Over!</h1>
     <h2 id="result-message"></h2>
